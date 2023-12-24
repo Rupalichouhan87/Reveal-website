@@ -1,0 +1,438 @@
+@media (min-width: 320px) and (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+    .main-boxs{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-box1{
+        width: 100%;
+        border-bottom: 0.5px solid #767676;
+    }
+    .main-box1 a{
+        font-size: 15px;
+        align-items: center;
+    }
+    .main-box2{
+        display: none;
+    } 
+    header{
+        width: 100%;
+        height: 50px;
+        position: sticky;
+        top: 0;
+        margin-top: 0px;
+    }
+    .header-body{
+        flex-direction: column;
+        position: relative;
+    }
+    .header-body .logo{
+        margin-right: 45%;
+    }
+    #chk {
+        opacity: 0;
+        position: absolute;
+        right: 13%;
+        top: 15px;
+        cursor: pointer;
+    }
+    .navbar #myicon {
+        opacity: 1;
+        position: absolute;
+        right:13%;
+        top: 15px;
+        cursor: pointer; 
+    }
+    .navbar ul{
+        width: 95%;
+        height: 560px;
+        flex-direction: column;
+        align-items: start;
+        background: #fff;
+        position: absolute;
+        margin: 5px 10px;
+        padding-bottom: 55%;
+        border: 1px solid   ;
+        gap: 8%;
+        top: -600px;
+        left: 0;
+        transition: all 0.5s; 
+    }
+    .navbar ul li a{
+        font-size: 15px;
+        color: #0c2e8a;
+    }
+    .navbar ul li .action {
+        color: #50d8af;
+        font-size: 15px;
+    }
+    #chk:checked ~ ul {
+        top: 55px;
+        z-index: 111;
+    }
+    #hero-section{
+        width: 100%;
+        height: 60vh;
+    }
+    .hero-body {
+        height: 100%;
+        position: relative;
+        z-index: -1;
+    }
+    .hero-body .swiper {
+        width: 100%;
+        height: 55vh;
+        margin-top: 0;
+    }
+    .hero-body .swiper-slide{
+        width: 100%;
+        height: 40vh;
+    }
+    .hero-body .swiper-slide img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    #hero-section .hero-content {
+        position: absolute;
+        top: 25%;
+    }
+    #hero-section .hero-content h2{
+        font-size: 34px;
+    }
+    #hero-section .btn {
+        margin-top: 35px;
+        padding: 10px 25px;
+    }
+    #about{
+        margin-top:5px;
+    }
+    .row{
+        flex-direction: column;
+    } 
+    .row-first-half {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .row-first-half img {
+        width: 100%;
+    }
+    .row-second-half {
+        width: 100%;
+    }
+    .row-second-half h3{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .row-second-half ul li {
+        letter-spacing: 1.5px;
+       font-size: 18px;
+    }
+    #Services{
+        margin-top: 80%;
+    }
+    .box1{
+        width: 100%;
+        height: 280px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1 div h4 {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .box1 div p {
+        font-size: 18px;
+    }
+    #clients{
+        margin-top: 180%;
+    }
+    .client-content{
+        width: 100%;
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+    #portfolio{
+        margin-top: 65px;
+    }
+    .p-card {
+        width: 100%;  
+        height: 300px;
+    }
+    .p-card img {
+        width: 100%;
+        height: 300px;
+    }
+    .testimonial-body{
+        width: 100%;
+    }
+    .testimonial-itmes{
+        width: 100%;
+    }
+    .testimonial-body .swiper-slide{
+        width: 100%;
+    }
+    .testimonial-itmes img {
+        width: 100px;
+    }
+    #call-to-action{
+        padding-bottom:35px;
+    }
+    .callToAction{
+        text-align: center;
+        height: 300px;
+        flex-direction: column;
+    }
+    .call-text{
+        height: 180px;
+    }
+    .t-row{
+        padding: 10px;
+    }
+    .team-member{
+        flex-direction: column;
+    }
+    .member{
+        margin-bottom: 5px;
+        width: 100%;
+        height: 450px;
+    }
+    .member img {
+        width: 100%;
+        height: 350px;
+    }
+    .member .team-detail p{
+        font-size: 10px;
+    }   
+    .contact-items {
+        flex-direction: column;
+    }
+    .contact-item {
+        height: 180px;
+        box-shadow: none;
+        border: none;
+    }
+    .row1{
+        flex-direction: column;
+    }
+    .row1 input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .row2 input {
+        margin-top: 10px;
+    }
+    .map-div{
+        width: 100%;
+    }
+    .map-div iframe {
+        width: 100%;
+        height: 380px;
+    }
+}
+
+@media  (min-width: 601px) and (max-width: 790px) {
+    .container {
+        width: 100%;
+    }
+    .main-boxs {
+       margin-top: 10px;
+       width: 100%;
+       justify-content: space-evenly;
+    }
+    .main-box1{
+        width: 60%;
+        margin-right: 70px;
+    }
+    .main-box2 {
+        width: 20%;
+    }
+    .header-body{
+        flex-direction: column;
+        position: relative;
+    }
+    .header-body .logo{
+        margin-right: 72%;
+    }
+    #chk {
+        opacity: 0;
+        position: absolute;
+        right: 10%;
+        top: 15px;
+        cursor: pointer;
+    }
+    .navbar #myicon {
+        opacity: 1;
+        position: absolute;
+        right: 10%;
+        top: 15px;
+        cursor: pointer;
+    }
+    .navbar ul {
+        width: 97%;
+        height: 500px;
+        flex-direction: column;
+        align-items: start;
+        background: #fff;
+        position: absolute;
+        margin: 15px 10px;
+        padding-bottom: 25%;
+        border: 1px solid;
+        gap:8%;
+        top: -600px;
+        left: 0;
+        transition: all 0.5s;
+    }
+    .navbar ul li a {
+        font-size: 15px;
+        color: #0c2e8a;
+    }
+    .navbar ul li .action {
+        color: #50d8af;
+        font-size: 15px;
+    }
+    #chk:checked~ul {
+        top: 55px;
+        z-index: 111;
+    }
+    #hero-section{
+        width: 100%;
+        height: 50vh;
+    }
+    .hero-body .swiper-slide {
+        width: 100%;
+        height: 50vh;
+    }
+    .hero-body .swiper {
+        width: 100%;
+        height: 50vh;
+        margin-top: 0;
+    }
+    .hero-body .swiper-slide img {
+        width: 100%;
+        height: 60vh;
+        margin-top: 0;
+        object-fit: cover;
+    }
+    #hero-section .hero-content{
+        position: absolute;
+        top: 25%;
+    }
+    #hero-section .hero-content h2 {
+        font-size: 35px;
+    }
+    
+    #hero-section .btn {
+        margin-top: 35px;
+        padding: 10px 25px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+    .row-first-half {
+        width: 100%;
+        padding: 15px 45px;
+    }
+    .row-second-half {
+        width: 100%;
+        padding: 25px;
+    }
+    .row-second-half h2 {
+      font-size: 35px;
+      line-height: 42px;
+    }
+    .row-second-half h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .row-second-half ul li {
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+    #Services {
+        margin-top: 50%;
+        padding: 10px 40px;
+    }
+    .box1 {
+        width: 100%;
+    }
+    #clients {
+        margin-top:30%;
+        padding: 10px 40px;
+    }
+    #portfolio{
+        padding: 10px 40px;
+    }
+    .portfolio-card {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .p-card {
+        width: 48%;
+    }
+    .p-card:checked .p-card-details {
+        opacity: 1;
+        transition: 0.5s linear;
+    }
+    #testmonial{
+        padding: 10px 40px;
+    }
+    .callToAction {
+        text-align: center;
+        height: 300px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #team{
+        padding: 10px 40px;
+    }
+    .team-member {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .member {
+        width: 48%;
+    }
+    #contact{
+        padding: 10px 40px;
+    }
+    .contact-item{
+        text-align: center;
+        width: 350px;
+        font-size: 10px;
+    }
+    .contact-item i {
+        font-size: 45px;
+    }
+    .contact-item h3 {
+        font-size: 20px;
+    }
+    .contact-item p {
+        font-size: 18px;
+    }
+    .row1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .row1 input {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .map-div {
+        width: 100%;
+    }
+    .map-div iframe {
+        width: 100%;
+        height: 380px;
+    }
+} 
